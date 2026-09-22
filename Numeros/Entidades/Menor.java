@@ -14,7 +14,6 @@ public class Menor extends Numeros{
                menor = this.conjunto[i];
             }
         }
-        System.out.println("El numero menor del conjunto es: " + menor);
         return menor;
     }
 

@@ -10,8 +10,8 @@ public class Main {
         Menor me = new Menor(conjunto);
         Pares p = new Pares(conjunto);
 
-        ma.calcular();
-        me.calcular();
+        System.out.println("El mayor numero del conjunto es: " + ma.calcular());
+        System.out.println("El menor numero del conjunto es: " + me.calcular());
         p.calcular();
 
     }

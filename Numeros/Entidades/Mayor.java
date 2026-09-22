@@ -14,7 +14,6 @@ public class Mayor extends  Numeros{
                 mayor = this.conjunto[i];
             }
         }
-        System.out.println("El numero mayor del conjunto es: " + mayor);
         return mayor;
     }
 
